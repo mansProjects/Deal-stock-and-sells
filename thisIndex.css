@@ -113,3 +113,16 @@ body main .articleForm form input[type='submit']{
     font-size: 25px;
     color: #f1f1f1;
 }
+body main .articleForm form #Article{
+    padding: 10px;
+    width: 70%;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #168ec3;
+}
+body main .articleForm form #Article option{
+    font-size: 18px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    color: #168ec3;
+}
