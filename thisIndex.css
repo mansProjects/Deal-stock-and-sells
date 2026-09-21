@@ -103,7 +103,7 @@ body main .articleForm form input{
 }
 body main .articleForm form input::placeholder{
     color: #168ec3;
-    font-size: 18px;
+    font-size: 15px;
 }
 body main .articleForm form input[type='submit']{
     width: 100%;
