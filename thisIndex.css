@@ -96,7 +96,7 @@ body main .articleForm form #article{
 }
 body main .articleForm form input{
     width: 60%;
-    padding: 40px 20px;
+    padding: 10px 20px;
     background: none;
     background-color: #f1f1f1;
     border: none;
@@ -106,7 +106,7 @@ body main .articleForm form input::placeholder{
     font-size: 15px;
 }
 body main .articleForm form input[type='submit']{
-    width: 100%;
+    width: 50%;
     padding: 20px;
     background-color: #168ec3;
     border-radius: 10px;

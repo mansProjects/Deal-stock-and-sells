@@ -47,6 +47,13 @@
 
 <!-- Script JavaScript pour gérer l'envoi de manière fluide -->
 <script>
+    const inputValue = document.getElementById('prix');
+    inputValue.style.fontSize='30px'
+    const inputValue1 = document.getElementById('depenses');
+    inputValue1.style.fontSize='30px'
+    const inputValue2 = document.getElementById('nbrepiece');
+    inputValue2.style.fontSize='30px'
+ 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxDYn15hklmx1HwfTbkKQnuerLdk10jV-N7tlIUeMQrWKQhemTcNbJisOsVyD7w9A6xyA/exec'; // Gardez votre URL exacte ici
 
 const form = document.getElementById('myForm');
@@ -63,6 +70,8 @@ form.addEventListener('submit', e => {
     form.reset(); // Vide le formulaire après l'envoi
   })
   .catch(error => console.error('Erreur!', error.message));
+  
+
 });
 </script>
     </main>
